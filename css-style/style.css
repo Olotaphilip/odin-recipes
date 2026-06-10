@@ -1,0 +1,144 @@
+/* general style */
+
+body {
+    background-color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+    /* home style*/
+
+.home-box {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-box ul li {
+    display: inline;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+
+.home-box ul li a {
+    text-decoration: none;
+    background-color: rgb(181, 153, 123);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+}
+
+.home-box ul li a:hover {
+    text-decoration: none;
+    background-color: rgb(216, 112, 0);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+    transition: 1s;
+}
+
+/*jollof page style*/
+
+.jollof-box {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: inherit;
+}
+
+.jollof-box h1, 
+.jollof-box h2, 
+.jollof-box h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.jollof-box a:hover {
+    text-decoration: none;
+    background-color: rgb(216, 112, 0);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+    transition: 1s;
+}
+
+.jollof-box a {
+    text-decoration: none;
+    background-color: rgb(181, 153, 123);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;   
+}
+
+/*tombrown style*/
+
+.tombrown-box {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: inherit;
+}
+
+.tombrown-box h1, 
+.tombrown-box h2, 
+.tombrown-box h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tombrown-box a {
+    text-decoration: none;
+    background-color: rgb(216, 112, 0);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+    transition: 1s;
+}
+
+.tombrown-box a:hover {
+    text-decoration: none;
+    background-color: rgb(181, 153, 123);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;   
+}
+
+/*yam style*/
+
+.yam-box {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: inherit;
+}
+
+.yam-box h1, 
+.yam-box h2,
+.yam-box h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.yam-box a {
+    text-decoration: none;
+    background-color: rgb(216, 112, 0);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+    transition: 1s;
+}
+
+.yam-box a:hover {
+    text-decoration: none;
+    background-color: rgb(181, 153, 123);
+    padding: 5px;
+    border-radius: 6px;
+    color: black;   
+}
+
+img {
+    margin-left: 200px;
+}
